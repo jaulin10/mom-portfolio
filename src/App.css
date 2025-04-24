@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -39,4 +41,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* 🔽 AJOUT POUR RENDRE RESPONSIVE 🔽 */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
