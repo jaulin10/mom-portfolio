@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Hero from "./components/Home";
 import About from "./components/About"; // Assure-toi que About.jsx existe bien
 import Skills from "./components/Experience";
 import Portfolio from "./components/Interest";

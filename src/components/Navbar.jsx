@@ -14,13 +14,13 @@ const Navbar = ({ onOpenModal }) => {
         onClick={() => onOpenModal("experiences")}
         className="hover:text-purple-600 cursor-pointer"
       >
-        Experience
+        Projects
       </a>
       <a
         onClick={() => onOpenModal("interests")}
         className="hover:text-purple-600 cursor-pointer"
       >
-        Interests
+        Services
       </a>
       <a
         onClick={() => onOpenModal("contact")}
